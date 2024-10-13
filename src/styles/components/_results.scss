@@ -1,0 +1,51 @@
+#results {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  
+    .results-container {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 2rem;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+      width: 40%;
+    }
+  
+    h2 {
+      font-size: 2rem;
+      color: $off-white;
+      margin-bottom: 1.5rem;
+    }
+  
+    p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+      color: $off-white;
+    }
+  
+    .result-data {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  
+    button {
+      background-color: $green;
+      border-radius: $button-radius;
+      color: #fff;
+      padding: $normal;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: 0.3s linear all;
+      width: 100%;
+      margin-top: 2rem;
+    }
+  
+    button:hover {
+      background-color: darken($green, 10%);
+    }
+  }
+  

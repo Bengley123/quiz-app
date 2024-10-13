@@ -1,0 +1,53 @@
+// _quiz.scss
+
+#quiz {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    
+    h2 {
+      color: #333;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    h3 {
+      color: #555;
+      font-size: 1.5rem;
+      margin: 1rem 0;
+      text-align: center;
+    }
+  
+    button {
+      background-color: #28a745; // Warna tombol
+      border: none;
+      border-radius: 5px;
+      color: white;
+      padding: 1rem 2rem;
+      margin: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+  
+      &:hover {
+        background-color: darken(#28a745, 10%); // Warna tombol saat hover
+      }
+    }
+  
+    .answers {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 400px; // Membatasi lebar tombol
+      margin: 0 auto;
+  
+      button {
+        width: 100%; // Tombol memenuhi lebar kontainer
+      }
+    }
+  }
+  

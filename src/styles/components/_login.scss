@@ -1,0 +1,52 @@
+#login {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  
+    h2 {
+      text-align: center;
+      color: rgba(0, 0, 0, 0.7);
+      font-size: 2rem; 
+      margin-bottom: 2rem;
+    }
+  
+    form {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 2rem;
+      border-radius: 10px;
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    input {
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+  
+    button {
+      background-color: $green; // Gunakan warna yang sama dengan play button di Home
+      border-radius: $button-radius;
+      color: #fff;
+      padding: $normal;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s linear all;
+      width: 100%;
+      text-align: center;
+    }
+  
+    button:hover {
+      background-color: darken($green, 10%);
+    }
+  }
+  
